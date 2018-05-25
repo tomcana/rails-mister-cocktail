@@ -1,3 +1,18 @@
 .container {
   padding-bottom: 20px;
 }
+
+.table > thead > tr > th {
+    border-bottom: 1px solid #10d2e2;
+    border-top: none;
+}
+.table > tbody > tr > td {
+    border-top: none;
+}
+
+td a {
+  color: #10d2e2;
+}
+.form-area {
+  margin-bottom: 20px;
+}
