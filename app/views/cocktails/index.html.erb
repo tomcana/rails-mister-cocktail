@@ -1,3 +1,5 @@
+<h1>Welcome to Mister Cocktail</h1>
+<h2>Coctails</h2>
 <ul>
   <% @cocktails.each do |cocktail| %>
     <li>
@@ -5,4 +7,4 @@
     </li>
   <% end %>
 </ul>
-<%= link_to "Add a new Cocktail", cocktails_new_path, class: 'btn btn-primary' %>
+<%= link_to "Add a new Cocktail", cocktails_path, class: 'btn btn-primary' %>
